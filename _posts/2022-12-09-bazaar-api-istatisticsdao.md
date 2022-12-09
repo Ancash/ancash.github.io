@@ -24,22 +24,22 @@ The unit price, the amount and the timestamp of a transaction are the only thing
 
 To access the records of a specific year
 ```java
-public Record getRecord(int year)
+public Record getRecord(int year)
 ```
 
 To access the records of a specific year and month
 ```java
-public Record getRecord(int year, int month)
+public Record getRecord(int year, int month)
 ```
 
 To access the records of a specific year, month and day
 ```java
-public Record getRecord(int year, int month, int day)
+public Record getRecord(int year, int month, int day)
 ```
 
 To access the records of a specific year, month, day and hour. Offset should be set to true if the given date should take your time zone offset into consideration (UTC is desired).
 ```java
-public Record getRecord(int year, int month, int day, int hour, boolean offset)
+public Record getRecord(int year, int month, int day, int hour, boolean offset)
 ```
 
 Although the methods above provide easy access to a record at a specific point in time, especially the third method, that does not take hours but days into consideration, does not consider time zone offsets. If the offset is, for example, +6 hours, the data of the current date is only returned, once it's 6 o'clock or late, thus not being very accurate. Although that also the case for the first and seconds methods, compared to the whole data set, it does not make that much of a difference, but it still does.
@@ -48,22 +48,22 @@ The following methods help in such a predicament.
 
 Returns all the records that were made in the last n hours.
 ```java
-public Record[] getRecordsOfLastHours(int n)
+public Record[] getRecordsOfLastHours(int n)
 ```
 
 Returns all the records that were made in the last n days.
 ```java
-public Record[] getRecordsOfLastDays(int n)
+public Record[] getRecordsOfLastDays(int n)
 ```
 
 Returns all the records that were made in the last n months.
 ```java
-public Record[] getRecordsOfLastMonths(int n)
+public Record[] getRecordsOfLastMonths(int n)
 ```
 
 Returns all the records that were made in the last n years.
 ```java
-public Record[] getRecordsOfLastYears(int n)
+public Record[] getRecordsOfLastYears(int n)
 ```
 
 The returned array is of the size n and an element, which may be null, in the array is the record that was saved it's index + 1 hours/days/months/years ago (compared to *System.currentTimeMillis()* (UTC)). Depending on how much data has been accumulated, it will take up a significant amount of memory. If sockets are not supported, that is not an issue, but if they are, performance issues will arise as the requested data grows bigger and bigger. Let's say a yearly record has been requested. It has 365 day * 24 hours * 100 transactions worth of data (876000). In it's serialized form, which is needed in order to send it over the network, it is ~80MB big, noticeably influencing performance. Therefore, in case of big data sets and performance issues, it's recommended to use the methods listed at the beginning.
