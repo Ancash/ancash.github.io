@@ -7,9 +7,9 @@ tags: [bazaar, api, dao]     # TAG names should always be lowercase
 
 # Bazaar API: ITransactionDAO
 
-In order to get the [ITransactionsDAO](/doc/bazaar/de/ancash/bazaar/core/dao/ITransactionsDAO.html), you have to execute
+In order to get the [ITransactionDAO](/doc/bazaar/de/ancash/bazaar/core/dao/ITransactionDAO.html), you have to execute
 ```java
-ITransactionsDAO transactionsDAO = coreDAO.transactionsDAO();
+ITransactionDAO transactionDAO = coreDAO.transactionsDAO();
 ```
 
 This DAO makes it possible to create Sell Offers, create Buy Orders and check whether a player is able to create an enquiry.
