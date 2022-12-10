@@ -7,4 +7,4 @@ tags: [bazaar, api, dao]     # TAG names should always be lowercase
 
 # Bazaar API: IPlaceholderDAO
 
-This interface is intended for internal use only (managing placeholders). You can still use it, but no additional documentation will be provided (the name of the methods should already explain the context it can be used in).
+This interface is intended for internal use only (managing placeholders). You can still use it, but no additional documentation will be provided (the name of the methods should already explain the context it can be used in). If you really need this interface, a short documentation can be provided.

@@ -2,7 +2,7 @@
 title: "Bazaar API: Module"
 date: 2022-12-09 22:50:00 +0100
 categories: [Minecraft, Bazaar]
-tags: [bazaar, internal]     # TAG names should always be lowercase
+tags: [bazaar, internal, module]     # TAG names should always be lowercase
 ---
 
 # Bazaar API: Module
