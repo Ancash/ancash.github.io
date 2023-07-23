@@ -5,8 +5,6 @@ categories: [Minecraft, Bazaar]
 tags: [bazaar, api, dao]     # TAG names should always be lowercase
 ---
 
-# Bazaar API: ICoreDAO
-
 As the name suggests, this is the main part of the Bazaar API. Here is a list of methods with a short explanation:
 
 ```java

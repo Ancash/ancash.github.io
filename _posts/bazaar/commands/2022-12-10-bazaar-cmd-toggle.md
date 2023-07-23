@@ -5,8 +5,6 @@ categories: [Minecraft, Bazaar]
 tags: [bazaar, command, module]     # TAG names should always be lowercase
 ---
 
-# Bazaar Command: toggle
-
 This command allows you to toggle specific [Modules]({{site.baseurl}}/posts/bazaar-module)
 
 Here is a list of all modules:

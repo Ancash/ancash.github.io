@@ -5,8 +5,6 @@ categories: [Minecraft, Bazaar]
 tags: [bazaar, api, dao]     # TAG names should always be lowercase
 ---
 
-# Bazaar API: ITransactionDAO
-
 In order to get the [ITransactionDAO](/doc/bazaar/de/ancash/bazaar/core/dao/ITransactionDAO.html), you have to execute
 ```java
 ITransactionDAO transactionDAO = coreDAO.transactionsDAO();

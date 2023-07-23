@@ -5,8 +5,6 @@ categories: [Minecraft, Bazaar]
 tags: [bazaar, api, dao]     # TAG names should always be lowercase
 ---
 
-# Bazaar API: IStatisticsDAO
-
 In order to get the [IStatisticsDAO](/doc/bazaar/de/ancash/bazaar/core/dao/IStatisticsDAO.html), you have to execute
 ```java
 IStatisticsDAO statisticsDAO = coreDAO.statisticsDAO();

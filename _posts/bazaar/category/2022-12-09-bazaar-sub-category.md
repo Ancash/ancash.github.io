@@ -1,11 +1,9 @@
 ---
-title: "Bazaar API: Sub Category"
+title: "Bazaar: Sub Category"
 date: 2022-12-09 18:00:00 +0100
 categories: [Minecraft, Bazaar]
 tags: [bazaar, internal, module]     # TAG names should always be lowercase
 ---
-
-# Bazaar API: Sub Category
 
 There are a total of 18 sub categories per [Category]({{site.baseurl}}/posts/bazaar-category), but not all of them have to be used. 
 Read [here]({{site.baseurl}}/posts/bazaar-cmd-open) and [here]({{site.baseurl}}/posts/bazaar-cmd-toggle) on how to include/exclude categories without deleting them.

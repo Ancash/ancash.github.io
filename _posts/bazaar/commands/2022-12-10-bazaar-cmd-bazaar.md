@@ -5,7 +5,6 @@ categories: [Minecraft, Bazaar]
 tags: [bazaar, command]     # TAG names should always be lowercase
 ---
 
-# Bazaar Command: bazaar
-
-***/bazaar*** behaves exactly like [*/bz open*]({{site.baseurl}}/posts/bazaar-cmd-open).
-The permission is: *bazaar.open*
+***/bazaar*** \
+behaves exactly like [*/bz open*]({{site.baseurl}}/posts/bazaar-cmd-open).\
+Permission: *bazaar.open*
