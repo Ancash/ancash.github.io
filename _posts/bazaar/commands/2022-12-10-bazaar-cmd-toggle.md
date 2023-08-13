@@ -25,5 +25,6 @@ To toggle a module you have to use the command ***/bz toggle \<module>***
 
 The permission is: *bazaar.toggle*
 
-Players in the Bazaar will see the changes instantly. So for example if they are in the main menu, and the *MANAGE_ENQUIRIES_MODULE* is toggled, they won't be able to click the *Manage Enquiries* item, instead they will see a predefined item, which does not have any functionality.
-This feature is actually quiet powerfull. It also you to disable features you do not want to include, that are not configured correctly or that do not function as intended (bug).
+Players in the Bazaar will see the changes instantly. \
+So for example if they are in the main menu, and the *MANAGE_ENQUIRIES_MODULE* is toggled, they won't be able to click the *Manage Enquiries* item, instead they will see a predefined item, which does not have any functionality. \
+It allows you to disable features you do not want to include, that are not configured correctly or that do not function as intended (bug).
