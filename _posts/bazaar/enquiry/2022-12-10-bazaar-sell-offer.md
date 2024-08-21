@@ -6,7 +6,7 @@ tags: [bazaar, enquiry]
 ---
 
 A Sell Offer signifies that a player is willing to sell a specific number of items at a specific price per unit or more. \
-Restrictions can be configure in the [config.yml]({{site.baseurl}}/posts/bazaar-config) or by using [*/bz edit*]({{site.baseurl}}/posts/bazaar-cmd-edit). \
+Restrictions can be configure in the *plugins/Bazaar/config.yml* on the remote or by using [*/bz edit*]({{site.baseurl}}/posts/bazaar-cmd-edit) and selecting *config.yml*. \
 Depending on the unit price, your Sell Offer will be filled faster or slower (the lower the unit price, the faster it will be filled).
 
 ## How to create a Sell Offer

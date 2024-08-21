@@ -6,7 +6,7 @@ tags: [bazaar, enquiry]
 ---
 
 A Buy Order signifies that a player is willing to buy a specific number of items at a specific price per unit or lower. \
-Restrictions can be configure in the [config.yml]({{site.baseurl}}/posts/bazaar-config) or by using [*/bz edit*]({{site.baseurl}}/posts/bazaar-cmd-edit). \
+Restrictions can be configure in the *plugins/Bazaar/config.yml* on the remote or by using [*/bz edit*]({{site.baseurl}}/posts/bazaar-cmd-edit) and selecting *config.yml*. \
 Depending on the unit price, your Buy Order will be filled faster or slower (the higher the unit price, the faster it will be filled). \
 There is one key difference between a [Sell Offer]({{site.baseurl}}/posts/bazaar-sell-offer) and a Buy Order. \
 It is possibe for a Buy Order to be filled by a Sell Offer with an equal **OR** lower unit price. \
