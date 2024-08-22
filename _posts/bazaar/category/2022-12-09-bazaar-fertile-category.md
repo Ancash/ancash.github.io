@@ -1,5 +1,5 @@
 ---
-title: "Bazaar: Sub Category"
+title: "Bazaar: Fertile Category"
 date: 2024-08-22 12:00:00 +0100
 categories: [Minecraft, Bazaar]
 tags: [bazaar, category]     # TAG names should always be lowercase
