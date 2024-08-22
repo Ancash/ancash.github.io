@@ -5,9 +5,9 @@ categories: [Minecraft, Bazaar]
 tags: [bazaar, command]     # TAG names should always be lowercase
 ---
 
-The functionality of ***/bz*** depends on *bypass-bz-sub-cmds-list* in the [config]({{site.baseurl}}/posts/bazaar-config). 
+The functionality of ***/bz*** depends on *bypass-bz-sub-cmds-list* in the "plugins/Bazaar/config.yml". 
 If it is set to *true*:
-It behaves exactly like [*/bz open*]({{site.baseurl}}/posts/bazaar-cmd-open).
+It behaves exactly like [*/bazaar*]({{site.baseurl}}/posts/bazaar-cmd-bazaar).
 
 If set to *false*:
 A list with all sub commands will be displayed.

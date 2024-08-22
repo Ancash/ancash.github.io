@@ -6,5 +6,9 @@ tags: [bazaar, command]     # TAG names should always be lowercase
 ---
 
 ***/bazaar*** \
-behaves exactly like [*/bz open*]({{site.baseurl}}/posts/bazaar-cmd-open).\
+Gets the default [namespace]({{site.baseurl}}/posts/bazaar-namespace) specified in "plugins/Bazaar/config.yml"and executes
+```yaml
+/bz open <namespace>
+```
+for the player.
 Permission: *bazaar.open*

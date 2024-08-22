@@ -7,10 +7,19 @@ tags: [bazaar, namespace, marketspace]     # TAG names should always be lowercas
 
 A marketspace provides a container to hold a collection of specified [root categories]({{site.baseurl}}/posts/bazaar-category) that exist in the same [namespace]({{site.baseurl}}/posts/bazaar-namespace).
 
-# Creating a Marketspace
+## Creating a Marketspace
 See [here]({{site.baseurl}}/posts/bazaar-cmd-marketspace).
 
-# Deleting a Marketspace
-1. Stop the socket server
-2. Delete the file "plugins/Bazaar/namespace/\<namespace>/marketspace/\<id>.yml" where \<namespace> and \<id> are the properties of the marketspace you want to delete
-3. Done
+## Deleting a Marketspace
+See [here]({{site.baseurl}}/posts/bazaar-cmd-marketspace).
+
+## Editing a Marketspace
+See [here]({{site.baseurl}}/posts/bazaar-cmd-marketspace).
+
+## Default Marketspace
+Each [namespace]({{site.baseurl}}/posts/bazaar-namespace) has a default marketspace which contains all its' [root categories]({{site.baseurl}}/posts/bazaar-root-category).
+The id is *-1*. It is the marketspace that is opened when using
+```yaml
+/bz open <namespace>
+/bz open <namespace> <player>
+```
