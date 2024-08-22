@@ -8,5 +8,5 @@ tags: [bazaar, command]     # TAG names should always be lowercase
 ```yaml
 /bz reload
 ```
-As the name suggests, the plugin will be reloaded. \
+As the name suggests, the plugin will be reloaded. Reloads everything. Only executable on MC server.
 Permission: *bazaar.reload*
