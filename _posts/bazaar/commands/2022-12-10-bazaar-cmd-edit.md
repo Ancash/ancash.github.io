@@ -11,23 +11,23 @@ Executing
 /bz edit
 ```
 opens a GUI with all Bazaar files that can be edited.
-![???](/assets/bazaar/bz_edit_main.gif "Opening the menu") \
+![???](/assets/bazaar/bz_edit_main.gif "Opening the menu")
 
 The files in the top row (located at "plugins/Bazaar/") can also be easily edited in a text editor as well as through a gui which provides suggestions and validations in the case of item editing.
 By clicking one, a new GUI opens and displays all the options that are present in the file. You can easily create, delete and add options as you wish. \
-![???](/assets/bazaar/bz_edit_config.gif "Edit config.yml") \
+![???](/assets/bazaar/bz_edit_config.gif "Edit config.yml")
 
 ## Edit category files
 
 In the row below, all [*category*]({{site.baseurl}}/posts/bazaar-category) files are listed (1 to 5). There are two ways to edit these files. \
 By right clicking one, they can be edited the same way as the ones in the top row. \
 With a left click a seperate window opens, where the [*sub categories*]({{site.baseurl}}/posts/bazaar-sub-category) of the selected category are displayed. \
-![???](/assets/bazaar/bz_edit_cat_1.gif "Edit Category") \
+![???](/assets/bazaar/bz_edit_cat_1.gif "Edit Category")
 
 An already existing sub category can be deleted with a shift click. \
 A new one can be created by clicking the desired slot which corresponds to where the sub category will be placed in the Bazaar. \
 To edit a sub category, click the one you want to edit. \
-![???](/assets/bazaar/bz_edit_cat_2.gif "Edit Sub Category") \
+![???](/assets/bazaar/bz_edit_cat_2.gif "Edit Sub Category")
 
 A new GUI will open. There are similar slots as in the GUI before, except that they now represent a [*sub sub category*]({{site.baseurl}}/posts/bazaar-sub-sub-category). \
 To delete a sub sub category, shift click, to create one, click one of the empty slots and to edit one, click it. \

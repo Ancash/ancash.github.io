@@ -18,8 +18,4 @@ See [here]({{site.baseurl}}/posts/bazaar-cmd-marketspace).
 
 ## Default Marketspace
 Each [namespace]({{site.baseurl}}/posts/bazaar-namespace) has a default marketspace which contains all its' [root categories]({{site.baseurl}}/posts/bazaar-root-category).
-The id is *-1*. It is the marketspace that is opened when using
-```yaml
-/bz open <namespace>
-/bz open <namespace> <player>
-```
+The id is *-1*. It is the marketspace that is used when using [/bz open]({{site.baseurl}}/posts/bazaar-cmd-open) without specifying the marketspace.
